@@ -1,0 +1,174 @@
+/*whole body of the web*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: rgb(98, 30, 30);
+  color: black;
+}
+
+/*header*/
+header {
+  background-image: url(../img/biryanicover.avif);
+  color: antiquewhite;
+  padding: 10px;
+  text-align: center;
+}
+
+/*h1 of the header styling*/
+header h1 {
+  margin: auto;
+}
+
+/*navigation styling*/
+nav a {
+  color: purple;
+  text-decoration: none;
+  margin: 40px;
+}
+
+nav a:hover {
+  text-decoration: underline; /*put effects in the navigation*/
+}
+
+/*fixing profile class which is the profile image*/
+.profile {
+  border-radius: 60%;
+}
+
+/*Sections*/
+section,
+aside {
+  padding: 20px;
+  margin: 10px;
+  background: white;
+  border: 1px solid purple;
+  border-radius: 5px;
+}
+
+/*styling the feature product  gallery*/
+.sarap img {
+    background: white;
+    margin:3px;
+    width: 32%;
+    height: auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/*fixing hero image*/
+.hero img{
+    display:block;
+    margin: auto;
+    width: 50%;
+}
+
+/*fixing unordered list*/
+ul li {
+  margin-bottom: 15px;
+}
+
+ul li img {
+  width: 35%;
+  height: 30%;
+}
+
+.contain {
+    display: flex;               /* put content + aside side by side */
+    gap: 20px;                   /* space between them */
+    align-items: flex-start;     /* align to the top */
+}
+
+.diff {
+    flex: 3;
+}
+
+/*styling the aside*/
+aside {
+  flex: 1;
+  background: rgb(98, 30, 30);
+  width: 30%;
+  padding: 15px;
+  margin: 20px 0;
+  border: 4px solid green;
+  text-align: center;
+  color: white;
+  display: auto;
+}
+
+/*styling & fixing the contact form*/
+form input,
+form textarea,
+form button {
+  width: 80%;
+  padding: 8px;
+  margin: auto;
+  border-radius: 5px;
+}
+
+form button {
+  background: silver;
+  color: black;
+  cursor: pointer;
+}
+
+form button:hover {  /*put effects in the button*/
+  background: rgb(42, 39, 39);
+}
+
+/*making the galery 4 by 3 using grid*/
+.whole {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+/*fixes the products to make it more organize*/
+.item {
+  border: 1px solid green;
+  padding: 10px;
+  background: white;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/*fixes the images in item class or products*/
+.item img {
+  width: 100%;
+  height: auto;
+}
+
+/*add to cart button*/
+.item button {
+  background: rgb(47, 110, 110);
+  color: white;
+  padding: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.item button:hover {  /*put effects in the button*/
+  background: blue;
+}
+
+/*contact text coloring*/
+.contact{
+  color: black;
+}
+
+/*footer styling*/
+footer {
+  text-align: center;
+  background-image: url(../img/biryanicover.avif);
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
