@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTP-8" />
+  <head>
+    <title>Resume Web</title>
+    <!--Links to css-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--Links to JS-->
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <!--Our Resume-->
+    <!--Header & Navigation-->
+    <header>
+      <h1>My Resume</h1>
+      <nav>
+        <a href="#about">ABOUT ME</a>
+        <a href="#skills">Skills</a>
+        <a href="#acts">WebDev Activities</a>
+        <a href="product_feature.html">Products</a>  <!--product-->
+        <a href="product_gallery.html">Shop Gallery</a> <!--shop gallery-->
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <hr />
+
+    <!--About Mariane-->
+    <div class="contain">
+      <div class="diff">
+        <section id="about">
+          <h2>About Me</h2>
+          <h3>Mariane Belen</h3>
+          <!--picture profile-->
+          <img src="img/marianebelen.jpg" width="200" class="profile" />
+          <!--Personal information-->
+          <p>
+            Greetings! I am <b>Mariane Belen</b>, a 2nd year Computer Science
+            student at Ilocos Sur Polytechnic State college. Currently 19 years
+            old, living at San Andres, Candon City, Ilocos Sur. With a motto in life
+            'With God I Can'.
+          </p>
+        </section>
+        <hr />
+
+        <!--Skills & Hobbies of Mariane-->
+        <section id="skills">
+          <h3>Skills & Hobbies</h3>
+          <!--used unordered list and inserted photos on every hobbies-->
+          <ul>
+            <li>
+              🎬Watch Anime & read Manhwa/Manga <br />
+              <img src="img/anime.jpg" alt="Anime Watch" />
+            </li>
+            <li>
+              🎵Playing Ukalele <br />
+              <img src="img/ukalele.jpg" alt="Ukalele Play" />
+            </li>
+            <li>
+              🧑‍🤝‍🧑Teamwork-oriented Skills<br />   <!--skill in narrative-->
+              <p>
+                I communicate well and collaborate with my peers at group
+                activities. Not only does it make our projects better, but
+                it also builds a good team atmosphere. I think that good
+                communication is key to working together to achieve common goals
+                and resolving challenges together.
+              </p>
+            </li>
+          </ul>
+        </section>
+        <hr />
+
+        <!--3 Web development activities-->
+        <section id="acts">
+          <h3>WebDev Activities</h3>
+          <!--with photos and short description-->
+          <ul>
+            <li>
+              <b>Activity 1</b> Simple LogIn & Sign Up WebPage <br />
+              <img src="img/loginactivity.png" alt="Login & signup Activity" />
+              <p>
+                The Website Activity provides an easy-to-use interface that
+                accommodates users through <br />
+                the registration process efficiently. After logging in, members
+                gain access to special <br />
+                features and content specifically designed to improve their
+                experience.
+              </p>
+            </li>
+            <li>
+              <b>Activity 2</b> Simple Shop WebPage <br />
+              <img src="img/dezatuact.png" alt="Shop Activity" />
+              <p>
+                This Website Activity indulge in a delightful assortment of
+                cakes, pastries, <br />
+                and confections that reflect our dedication to excellence and
+                taste. Every offering <br />
+                is made with attention to detail, providing a memorable
+                experience for every sweet indulger.
+              </p>
+            </li>
+            <li>
+              <b>Activity 3</b> Simple Tourist WebPage<br />
+              <img
+                src="img/examtouristact.png"
+                alt="Tourist & Adventure Activity"
+              />
+              <p>
+                This Web Activity is an Tourism and showing tourist spots and
+                local <br />
+                products from the places we choose to feature.
+              </p>
+            </li>
+          </ul>
+        </section>
+      </div>
+
+      <!--Aside containing Mariane's Birthday calendar & github link-->
+      <aside>
+        <h3>📍Note</h3>
+        <h5>📅 My Birthday Calendar</h5>
+        <img src="img/birthdaycal.png" alt="Birthday Calendar" />
+        <h5>🔗GitHub Link</h5>
+        <p>https://github.com/MarianeBelen/CS2B_MCO_Belen_M</p>
+      </aside>
+      <hr />
+    </div>
+
+    <!--About Althea-->
+    <div class="contain">
+      <div class="diff">
+        <section id="about">
+          <h2>About Me</h2>
+          <h3>Althea Crisheil Duran</h3>
+          <!--picture profile-->
+          <img src="img/altheaduran.jpg" width="200" class="profile" />
+          <!--Personal information-->
+          <p>
+            Hello, I am <b>ALTHEA CRISHEIL DURAN</b> a 2nd-year Computer Science
+            student with a passion for technology, problem-solving, and building
+            creative projects. I enjoy learning developing websites and
+            exploring new innovations in the tech world. My goal is to apply my
+            knowledge in real-world applications.
+          </p>
+        </section>
+        <hr />
+
+        <!--Skills & Hobbies of Althea-->
+        <section id="skills">
+          <h3>Skills & Hobbies</h3>
+          <ul>
+            <li>
+              🎬Watching Movies 🎵Music is my life 🧑‍🤝‍🧑Multitasker & Problem
+              Solving
+            </li>
+          </ul>
+        </section>
+        <hr />
+        
+        <!--3 Web development activities-->
+        <section id="acts">
+          <h3>WebDev Activities</h3>
+          <!--with photos and short description-->
+          <ul>
+            <li>
+              <b>Activity 1</b> Simple Log in & Sign up WebPage <br />
+              <img src="img/altheasignandlogin.jpg" alt="Sign Up Activity" />
+              <p>
+                This activity demonstrates the design of a welcome landing page
+                <br />
+                using HTML and CSS. It includes a background image, a <br />
+                centered welcome message, and two interactive buttons for Login
+                and Sign Up.
+              </p>
+            </li>
+            <li>
+              <b>Activity 2</b> Simple Shop WebPage <br />
+              <img src="img/realestateact.jpg" alt="Social Media Activity" />
+              <p>
+                This activity focuses on building a product/shop gallery in a
+                grid <br />
+                layout. Each item includes a photo, name, and short description,
+                <br />
+                representing real estate properties<br />
+              </p>
+            </li>
+            <li>
+              <b>Activity 3</b> Simple Tourist WebPage<br />
+              <img
+                src="img/examactivity.jpg"
+                alt="Tourist & Adventure Activity"
+              />
+              <p>
+                This activity creates a food/product showcase page featuring
+                images, <br />
+                names, and short descriptions.
+              </p>
+            </li>
+          </ul>
+        </section>
+      </div>
+
+      <!--Aside containing Althea's Birthday calendar & github link-->
+      <aside>
+        <h3>📍Note</h3>
+        <h5>📅 My Birthday Calendar</h5>
+        <img src="img/birthdayalthea.png" alt="Birthday Calendar" />
+        <h5>🔗GitHub Link</h5>
+        <p>https://github.com/crisheil26/CS2B_MCO_Duran-A.-/tree/4a2939af0ca5768867eb7f059678b6ac32a28b26</p>
+      </aside>
+      <hr />
+    </div>
+
+    <!--footer containg our contact form and developer names-->
+    <footer>
+      <section id="contact" class="contact">
+        <h1>Contact Us</h1>
+        <form>
+          <input type="text" placeholder="Name" /><br />
+          <input type="email" placeholder="Email" /><br />
+          <textarea placeholder="Message"></textarea><br />
+          <button type="submit">Send</button>
+        </form>
+      </section>
+      <hr />
+      <p>2025 WebDev MCO | BELEN, Mariane</p>
+      <p>2025 WebDev MCO | DURAN, Althea Crisheil</p>
+    </footer>
+  </body>
+</html>
