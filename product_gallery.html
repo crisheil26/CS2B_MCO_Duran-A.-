@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Product Gallery</title>
+    <!--links to css-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--links to js-->
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <!--Header-->
+    <header>
+      <h1>Arbab Biryani House Gallery</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="product_feature.html">Products</a>     <!--product-->
+        <a href="product_gallery.html">Shop Gallery</a>  <!--shop gallery-->
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <hr />
+
+    <!--hero-->
+    <section class="hero">
+      <img src="img/logoshop.jpg" />
+      <h2>Arbab Biryani House</h2>
+    </section>
+    <hr />
+
+    <!--Menu & Products Gallery-->
+    <!--12 Products with short description, photo, & details-->
+    <section>
+      <h2>Menu</h2>
+      <div class="whole">
+        <div class="item">
+          <img src="img/chickenmeow.jpg" />
+          <h4>Chicken Biryani</h4>
+          <p>A classic rice dish cooked with tender chicken, <br>
+            aromatic spices, and saffron for a rich flavor</p>
+          <p>₱149</p>
+          <button onclick="addToCart('Chicken Biryani')">🛒</button>  <!--add to cart-->
+        </div>
+
+        <div class="item">
+          <img src="img/beefbiryani.jpg" />
+          <h4>Beef Biryani</h4>
+          <p>uicy beef pieces layered with spiced rice, <br>
+            making it a hearty and filling meal.</p>
+          <p>₱159</p>
+          <button onclick="addToCart('Beef Biryani')">🛒</button>
+        </div>
+
+        <div class="item">
+          <img src="img/seafoodbiryani.jpg" />
+          <h4>Seafood Biryani</h4>
+          <p>A coastal twist of biryani with shrimp, <br>
+            shells,crabs,squid and seafood spices</p>
+          <p>₱159</p>
+          <button onclick="addToCart('Seafood Biryani')">🛒</button>
+        </div>
+
+        <div class="item">
+          <img src="img/seafoodarabbiatta.jpg" />
+          <h4>Sea Food Arabbiatta</h4>
+          <p>Pasta with fresh seafood cooked in spicy fresh <br>
+            tomato-based sauce.</p>
+          <p>₱160 (good for 2 person)</p>
+          <button onclick="addToCart('Sea Food Arabbiatta')">🛒</button>
+        </div>
+
+        <div class="item">
+          <img src="img/goatbiryani.jpg" />
+          <h4>Goat Biryani</h4>
+          <p>Royal-style biryani made with tender goat meat <br>
+            and slow-cooked spices.</p>
+          <p>₱189</p>
+          <button onclick="addToCart('Goat Biryani')">🛒</button>
+        </div>
+
+        <div class="item">
+          <img src="img/nachose.jpg" />
+          <h4>Nachos</h4>
+          <p>Crunchy corn chips topped with melted cheese, <br>
+            veggies and savory dips.</p>
+          <p>₱80</p>
+          <button onclick="addToCart('Nachos')">🛒</button>
+        </div>
+
+        <div class="item">
+          <img src="img/butteredchicken.jpg" />
+          <h4>Buttered Chicken</h4>
+          <p>Creamy and flavorful chicken dish cooked with <br>
+            butter and fresh tomato-based sauce.</p>
+          <p>₱139</p>
+          <button onclick="addToCart('Buttered Chicken')">🛒</button>
+        </div>
+
+        <div class="item">
+          <img src="img/beefquesadilla.jpg" />
+          <h4>Beef Quesadilla</h4>
+          <p>Soft tortilla filled with beef, onion <br>
+            and cheese, grilled to perfection</p>
+          <p>₱100</p>
+          <button onclick="addToCart('Beef Quesadilla')">🛒</button>
+        </div>
+
+        <div class="item">
+          <img src="img/overloadfries.jpg" />
+          <h4>OverLoad Fries</h4>
+          <p>Golden crispy fries topped with melted cheese, <br>
+            savory meats, mix veggies and a mix of sauces for <br>
+            a flavorful snack you can share.</p>
+          <p>₱100</p>
+          <button onclick="addToCart('OverLoad Fries')">🛒</button>
+        </div>
+
+        <div class="item">
+          <img src="img/samosa.jpg" />
+          <h4>Samosa</h4>
+          <p>Deep-fried pastry stuffed with spiced potatoes, <br>
+            and herbs.</p>
+          <p>₱100</p>
+          <button onclick="addToCart('Samosa')">🛒</button>
+        </div>
+
+        <div class="item">
+          <img src="img/panipuri.jpg" />
+          <h4>Pani Puri</h4>
+          <p>Crispy hollow balls filled with spicy and <br>
+            tangy flavored water.</p>
+          <p>₱100(10 pcs)</p>
+          <button onclick="addToCart('Pani Puri')">🛒</button>
+        </div>
+
+        <div class="item">
+          <img src="img/penealforno.jpg" />
+          <h4>Pene Al Forno</h4>
+          <p>Baked pasta with creamy cheese and savory herbs.</p>
+          <p>
+            Rice Meal: 195 (Good for 2 person)</p>
+          <button onclick="addToCart('Pene Al Ferno')">🛒</button>
+        </div>
+      </div>
+    </section>
+
+    <!--footer containg our contact form and developer names-->
+    <footer>
+      <section id="contact" class="contact">
+      <h1>Contact Us</h1>
+      <form>
+        <input type="text" placeholder="Name" /><br />
+        <input type="email" placeholder="Email" /><br />
+        <textarea placeholder="Message"></textarea><br />
+        <button type="submit">Send</button>
+      </form>
+    </section>
+    <hr>
+      <p>2025 WebDev MCO | BELEN, Mariane</p>
+      <p>2025 WebDev MCO | DURAN, Althea Crisheil</p>
+    </footer>
+  </body>
+            </html>
